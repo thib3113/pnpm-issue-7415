@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pnpm": {
+    "overrides": {
+      "moleculer": "github:thib3113/moleculer#fork",
+      "moleculer-web": "github:thib3113/moleculer-web#compile-rest"
+    },
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "handlebars@^4"
+      ]
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
